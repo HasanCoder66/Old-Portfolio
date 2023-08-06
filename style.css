@@ -1,0 +1,237 @@
+ /* @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap'); */
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
+ /* ye wali coding start sy home page ki */
+
+ body{
+    /* height: 2000px; */
+ }
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
+ .sidebar {
+    /* padding-left: 0px; */
+     background-color: rgb(204, 197, 197);
+     width: 165px;
+     height: 100vh;
+     font-family: 'Roboto', sans-serif;
+ }
+
+ .sidebar nav {
+     padding: 10px;
+ }
+
+ .sidebar nav li {
+     list-style: none;
+     font-size: 25px;
+     padding: 33px 0px;
+ }
+
+ .sidebar nav li a {
+     text-decoration: none;
+     color: black;
+     font-size: 20px;
+ }
+
+ .main {
+     /* background-color: yellow; */
+     width: 87vw;
+ }
+
+ .container {
+     display: flex;
+ }
+
+ .info-container {
+     /* background-color: green; */
+     height: 58vh;
+     width: 80vw;
+     margin: auto;
+     margin-top: 147px;
+     display: flex;
+     justify-content: space-around;
+ }
+
+ .dev-info {
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+     font-family: 'Source Code Pro', monospace;
+ }
+
+ .hello {
+     font-size: 50px;
+ }
+
+ .name {
+     font-size: 55px;
+     /* font-weight: bold; */
+     font-family: 'Roboto', sans-serif;
+ }
+
+ .about {
+     font-size: 40px;
+ }
+
+ .about-more {
+     margin-top: 20px;
+     font-size: 22px;
+     font-family: 'Roboto', sans-serif;
+
+ }
+
+ .buttons {
+     margin-top: 34px;
+ }
+
+ .buttons button {
+     padding: 9px 14px;
+     border-radius: 22px;
+     color: white;
+     background-color: dodgerblue;
+     font-weight: bold;
+     margin: 0px 3px;
+     cursor: pointer;
+ }
+
+ .buttons button:hover {
+     color: dodgerblue;
+     background-color: white;
+ }
+
+
+ .dev-pic img {
+     height: 58vh;
+ }
+ .image-cv {
+    display: flex;
+    justify-content: center;
+ }
+
+ /* ye wali coding contact waly page ki hy  */
+
+ .contact-form {
+     font-family: 'Roboto', sans-serif;
+     font-size: 12px;
+     padding-top: -144px;
+
+     padding: 0 30px;
+
+ }
+
+ .contact-form h1 {
+     font-family: 'Source Code Pro', monospace;
+     /* text-align: center; */
+     padding: 144px 0px 10px 0px;
+
+ }
+
+ .contact-form form div {
+     padding: 10px 0px;
+     display: flex;
+     flex-direction: column;
+ }
+
+ .contact-form form div input {
+     width: 27vw;
+     padding: px 10px;
+     font-size: 15px;
+     border-radius: 5px;
+
+ }
+
+ #form-check {
+     flex-direction: row;
+     /* padding: 0px -55px; */
+ }
+
+ #form-check-input {
+     width: 24px;
+     margin: -1px 0px;
+
+ }
+
+ #emailHelp {
+     font-size: 11px;
+     /* margin: 0px 10px; */
+     padding: 0px 3px;
+     color: midnightblue;
+     padding: 0px 8px;
+ }
+ .submit-btn{
+    font-size: 14px;
+    /* padding: 5px 0px 0px 0px;
+    margin: 15px 0px; */
+    width: 90px;
+}
+.back-btn {
+    
+    /* height: 35px;display: flex; justify-content: center; */
+    font-size: 14px;
+    /* padding: 5px 0px 0px 0px;
+    margin: 15px 0px; */
+    width: 90px;
+
+
+ }
+ /* yahan say blog page ki css hy */
+
+.blog-container {
+    text-align: center;
+}
+
+.blog-item {
+    margin: 15px 10px;
+}
+.blog-item h2 {
+    text-align: left;
+    
+}
+.blog-item p {
+    font-weight: bold;
+     font-family: 'Source Code Pro', monospace;
+    margin: 15px 50px;
+ }
+ /* .btn-btn {
+    width: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-size: 10px;
+    padding: -5px;
+    margin: 5px ;
+ } */
+
+ .name-one {
+    background-color: white;
+    color: dodgerblue;
+}
+.name-one:hover {
+    color: rgb(14, 110, 86);
+    background-color: white;
+ }
+ .my-intro {
+    /* margin: 0px 0px 25px 0px; */
+}
+.my-intro h2 {
+     font-size: xx-large;
+     
+    
+ }.my-intro p {
+    font-weight: bold;
+    font-family: 'Source Code Pro', monospace;
+    margin-top: 25px;
+ }
+
+
+ /* Footer  */
+  .footer {
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+    background-color: gray;
+    color: black;
+} 
